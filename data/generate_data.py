@@ -1,7 +1,7 @@
 """
 Generate the synthetic dataset for Workforce Lifecycle Operations.
 
-Everything here is invented: the company (Larkspur & Vane, a fictional professional
+Everything here is invented: the company (Wazobia Corp, a fictional professional
 services firm), every person, vendor, serial number and figure. No real company or
 employee data is used.
 
@@ -77,7 +77,7 @@ def laptop():
 
 
 def serial():
-    return "LV" + "".join(random.choices("ABCDEFGHJKLMNPQRSTUVWXYZ23456789", k=8))
+    return "WZ" + "".join(random.choices("ABCDEFGHJKLMNPQRSTUVWXYZ23456789", k=8))
 
 
 # ------------------------------------------------------------- onboarding
@@ -126,7 +126,7 @@ monthly = [14, 16, 19, 18, 22, 21, 26, 29, 41, 37, 23]  # Jan..Nov 2026
 offboarding = []
 for m, count in enumerate(monthly, start=1):
     for _ in range(count):
-        d = date(2026, m, random.randint(1, 28))
+        d = date(2026, m, random.randint(1, 19 if m == 11 else 28))  # no departures after the as-of date
         dept = pick(DEPTS)
         remote = random.random() < 0.42
         analyst = random.choices(ANALYSTS, [36, 34, 20, 10])[0]
@@ -220,7 +220,7 @@ write("contractors.csv", contractors)
 docs = HERE.parent / "docs"
 docs.mkdir(exist_ok=True)
 (docs / "data.json").write_text(json.dumps({
-    "company": "Larkspur & Vane (fictional)",
+    "company": "Wazobia Corp (fictional)",
     "as_of": TODAY.isoformat(),
     "onboarding": onboarding, "offboarding": offboarding, "contractors": contractors,
     "laptop_costs": {k: v[0] for k, v in LAPTOPS.items()},

@@ -1,10 +1,10 @@
 # Operations Brief: Workforce Lifecycle, H2 2026
 
-**To:** IT & People Operations leadership · **Company:** Larkspur & Vane *(fictional)* · **Data:** synthetic, as of Nov 20, 2026
+**To:** IT & People Operations leadership · **Company:** Wazobia Corp *(fictional)* · **Data:** synthetic, as of Nov 20, 2026
 
 ## Bottom line
 
-Hiring nearly doubled in the fall, and the processes behind it did not scale with it. Four changes would cut setup delays for new hires, recover about **$46K** in outstanding hardware, and lower our exposure to a handful of staffing vendors.
+Hiring nearly doubled in the fall, and the processes behind it did not scale with it. Four changes would cut setup delays for new hires, recover about **$45K** in outstanding hardware, and lower our exposure to a handful of staffing vendors.
 
 ## What the data shows
 
@@ -12,8 +12,8 @@ Hiring nearly doubled in the fall, and the processes behind it did not scale wit
 |---|---|---|
 | **Onboarding capacity** | Average cohort size rose from **14 to 28** hires (Sep–Nov vs Jun–Aug), with the same four analysts. One analyst handles **41%** of hires and **52%** of open setup items. | Work concentrates on one person: a single absence stalls a cohort, and new hires start without equipment or access. |
 | **Hardware lead time** | Remote hires wait a median of **9 days** for hardware, versus **4 days** at HQ. Remote hires are **34%** of intake. | A third of new hires risk a lost first week. |
-| **Offboarding recovery** | Digital steps close quickly (only **2%** of accounts still active), but physical recovery lags: **32 laptops (~$46K)** are not yet returned. **75%** of that value sits with remote leavers, who leave without returning equipment **21%** of the time, versus **5%** at HQ. | Unrecovered devices are both a cost and a security exposure. Laptop wipes wait on returns, and 25 are paused for legal hold. |
-| **Vendor concentration** | **3 of 15** vendors supply **52%** of active contractors; the largest alone supplies **23%**. | One vendor's pricing change or delivery failure would affect a quarter of contractor capacity. |
+| **Offboarding recovery** | Digital steps close quickly (only **2%** of accounts still active), but physical recovery lags: **31 laptops (~$45K)** are not yet returned. **74%** of that value sits with remote leavers, who leave without returning equipment **20%** of the time, versus **5%** at HQ. | Unrecovered devices are both a cost and a security exposure. Laptop wipes wait on returns, and 24 are paused for legal hold. |
+| **Vendor concentration** | **3 of 15** vendors supply **51%** of active contractors; the largest alone supplies **23%**. | One vendor's pricing change or delivery failure would affect a quarter of contractor capacity. |
 | **Contractor dependence** | Active contractors are up **~40%** in two years. **Client Success** holds **41%** of them. Median engagement: **5.6 months**. | Client-facing capacity relies on short-tenure, outsourced staff. That is a knowledge-retention and service-continuity risk. |
 
 ## Recommendations

@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Workforce Lifecycle Operations</title>
-<meta name="description" content="Interactive demo: onboarding, offboarding and contractor operations for a fictional company, built on synthetic data.">
+<meta name="description" content="Interactive demo: onboarding, offboarding and contractor operations for Wazobia Corp, a fictional company, on synthetic data.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script>
@@ -39,8 +39,8 @@ button:focus-visible,input:focus-visible,select:focus-visible{outline:2px solid 
 h2{font-size:15px;margin:0 0 2px}
 .card .desc{color:var(--muted);font-size:12.5px;margin:0 0 12px}
 .chart{position:relative;height:260px}
-.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:center;margin-bottom:14px}
-.filters label{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
+.filters{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin-bottom:14px}
+.filters label,.filters .field{font-size:12px;color:var(--muted);display:flex;flex-direction:column;gap:3px}
 select,input{font:inherit;font-size:13px;border:1px solid var(--line);border-radius:8px;padding:8px 10px;background:#fff;color:var(--ink);min-height:40px}
 .chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:12px}
 .chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 12px;font-size:12px;cursor:pointer;min-height:34px}
@@ -63,14 +63,6 @@ th{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--mute
 .decision h3{font-size:14px;margin:4px 0 6px}
 .decision p{margin:0;font-size:13px;color:#374151}
 .decision .act{margin-top:8px;font-size:12.5px;color:var(--ink)}
-.cards{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(min(100%,270px),1fr))}
-.ob{border:1px solid var(--line);border-radius:10px;padding:12px;background:#fff}
-.ob .who{display:flex;justify-content:space-between;gap:8px;align-items:start}
-.ob .name{font-weight:600}
-.ob .meta{font-size:12px;color:var(--muted)}
-.steps{display:grid;grid-template-columns:repeat(4,1fr);gap:4px;margin-top:8px}
-.step.pill{white-space:normal}
-.step{font-size:10px;text-align:center;border-radius:6px;padding:4px 2px;line-height:1.2}
 .more{text-align:center;margin-top:12px}
 dialog{border:0;border-radius:14px;padding:0;max-width:520px;width:calc(100% - 32px);box-shadow:0 20px 60px rgba(0,0,0,.25)}
 dialog form{padding:20px;display:grid;gap:10px;grid-template-columns:1fr 1fr}
@@ -78,6 +70,19 @@ dialog h2{grid-column:1/-1}
 dialog .full{grid-column:1/-1}
 dialog label{display:flex;flex-direction:column;gap:4px;font-size:12px;color:var(--muted)}
 dialog .actions{grid-column:1/-1;display:flex;justify-content:flex-end;gap:8px}
+.seg{display:inline-flex;border:1px solid var(--line);border-radius:8px;overflow:hidden;background:#fff}
+.seg button{border:0;background:none;padding:0 14px;min-height:40px;font:500 13px Inter,sans-serif;color:var(--muted);cursor:pointer}
+.seg button+button{border-left:1px solid var(--line)}
+.seg button[aria-pressed="true"]{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0,0,0,0);border:0}
+table.cases td{vertical-align:top}
+.strong{font-weight:600}
+.mono{font-family:var(--mono);font-size:11px}
+.wrap-cell{white-space:normal;min-width:200px;max-width:280px}
+.progress{width:96px;height:6px;border-radius:3px;background:#eef0f4;overflow:hidden;margin-top:6px}
+.progress span{display:block;height:100%;background:var(--accent);border-radius:3px}
+td .sub{font-size:11.5px;color:var(--muted)}
+.form-note{grid-column:1/-1;margin:-4px 0 0;font-size:12px;color:var(--muted)}
 .toast{position:fixed;bottom:20px;left:50%;transform:translateX(-50%);background:var(--ink);color:#fff;padding:10px 16px;border-radius:10px;font-size:13px}
 [hidden]{display:none!important}
 footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
@@ -88,18 +93,18 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
 <div class="wrap">
   <header class="top">
     <div class="brand">
-      <div class="logo" aria-hidden="true">LV</div>
+      <div class="logo" aria-hidden="true">WZ</div>
       <div>
         <h1>Workforce Lifecycle Operations</h1>
-        <p class="sub">Larkspur &amp; Vane · onboarding, offboarding and contractor operations · data as of <span id="asof"></span></p>
+        <p class="sub">Wazobia Corp · Onboarding, offboarding and contractor operations · Data as of <span id="asof"></span></p>
       </div>
     </div>
     <a class="btn ghost" href="https://github.com/K-B-C-04/workforce-lifecycle-ops" style="text-decoration:none;display:inline-flex;align-items:center">View on GitHub</a>
   </header>
-  <div class="banner"><strong>Demo:</strong> Larkspur &amp; Vane is a fictional company. Every person, vendor, serial number and figure is synthetic. Records you add here stay in this browser tab only.</div>
+  <div class="banner"><strong>Demo:</strong> Wazobia Corp is a fictional company. Every person, vendor, serial number and figure is synthetic.</div>
 
   <nav class="tabs" role="tablist" aria-label="Sections">
-    <button role="tab" aria-selected="true" data-tab="overview">Leadership read-out</button>
+    <button role="tab" aria-selected="true" data-tab="overview">Executive summary</button>
     <button role="tab" aria-selected="false" data-tab="onboarding">Onboarding</button>
     <button role="tab" aria-selected="false" data-tab="offboarding">Offboarding</button>
     <button role="tab" aria-selected="false" data-tab="contractors">Contractors</button>
@@ -125,7 +130,7 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
       <label>Work mode<select id="on-mode"><option value="">All</option><option>HQ</option><option>Remote</option></select></label>
       <label>Search<input id="on-search" type="search" placeholder="Name, title, department"></label>
       <span style="flex:1"></span>
-      <button class="btn" id="on-add">+ Add new hire</button>
+      <button class="btn" id="on-add">Add new hire</button>
     </div>
     <div class="grid kpis" id="on-kpis"></div>
     <div class="grid two" style="margin-top:14px">
@@ -142,21 +147,25 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
   <!-- ===================== OFFBOARDING ===================== -->
   <section id="offboarding" role="tabpanel" hidden>
     <div class="filters">
-      <label>Status<select id="off-status"><option value="">All</option><option>Complete</option><option>In progress</option></select></label>
+      <div class="field"><span>Status</span><div class="seg" role="group" aria-label="Case status" id="off-seg">
+        <button type="button" data-s="" aria-pressed="true">All</button>
+        <button type="button" data-s="open" aria-pressed="false">Open</button>
+        <button type="button" data-s="Complete" aria-pressed="false">Closed</button>
+      </div></div>
       <label>Analyst<select id="off-analyst"></select></label>
       <label>Work mode<select id="off-mode"><option value="">All</option><option>HQ</option><option>Remote</option></select></label>
-      <label>Search<input id="off-search" type="search" placeholder="Name, department, serial"></label>
+      <label>Search<input id="off-search" type="search" placeholder="Name, department or serial"></label>
       <span style="flex:1"></span>
-      <button class="btn" id="off-add">+ New offboarding</button>
+      <button class="btn" id="off-add">New offboarding</button>
     </div>
     <div class="grid kpis" id="off-kpis"></div>
     <div class="grid two" style="margin-top:14px">
-      <div class="card"><h2>Checklist completion</h2><p class="desc">Share of departures with each step done. Physical recovery lags the digital steps.</p><div class="chart"><canvas id="off-steps"></canvas></div></div>
-      <div class="card"><h2>Departures by month</h2><p class="desc">September's spike drives the open backlog.</p><div class="chart"><canvas id="off-monthly"></canvas></div></div>
+      <div class="card"><h2>Checklist completion by step</h2><p class="desc">Share of cases where each step is complete. Account and license steps close fast; equipment recovery lags.</p><div class="chart"><canvas id="off-steps"></canvas></div></div>
+      <div class="card"><h2>Departures by month</h2><p class="desc">Closed and open cases by last working day.</p><div class="chart"><canvas id="off-monthly"></canvas></div></div>
     </div>
     <div class="card" style="margin-top:14px">
-      <h2>Offboarding directory</h2><p class="desc" id="off-count"></p>
-      <div class="cards" id="off-cards"></div>
+      <div class="card-head"><div><h2>Offboarding cases</h2><p class="desc" id="off-count"></p></div></div>
+      <div class="table-box"><table class="cases"><thead><tr><th>Employee</th><th>Last working day</th><th>Analyst</th><th>Device</th><th>Progress</th><th>Outstanding</th><th>Status</th></tr></thead><tbody id="off-rows"></tbody></table></div>
       <div class="more"><button class="btn ghost" id="off-more">Show more</button></div>
     </div>
   </section>
@@ -170,7 +179,7 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
       <label>Vendor<select id="ct-vendor"></select></label>
       <label>Search<input id="ct-search" type="search" placeholder="Name or vendor"></label>
       <span style="flex:1"></span>
-      <button class="btn" id="ct-add">+ Add contractor</button>
+      <button class="btn" id="ct-add">Add contractor</button>
     </div>
     <div class="grid kpis" id="ct-kpis"></div>
     <div class="grid two" style="margin-top:14px">
@@ -186,7 +195,7 @@ footer{margin-top:28px;color:var(--muted);font-size:12px;text-align:center}
     </div>
   </section>
 
-  <footer>Synthetic data · Larkspur &amp; Vane is fictional · Built by Kamsi Ben Chiobi</footer>
+  <footer>Wazobia Corp is a fictional company · All data is synthetic · Built by Kamsi Ben Chiobi</footer>
 </div>
 
 <dialog id="dlg"><form method="dialog" id="dlg-form"></form></dialog>
@@ -322,44 +331,63 @@ $('on-more').onclick = () => { onLimit += 50; renderOn(); };
 ['on-q', 'on-analyst', 'on-mode', 'on-search'].forEach(id => $(id).addEventListener('input', () => { onLimit = 25; renderOn(); }));
 
 /* ---------------- offboarding ---------------- */
-const STEPS = [['equipment_return', 'Return'], ['security_key', 'Key'], ['account_disable', 'Accounts'], ['mdm_removal', 'MDM'],
-  ['license_reclaim', 'Licenses'], ['tracker_update', 'Tracker'], ['laptop_wipe', 'Wipe']];
-let offLimit = 24;
+const STEPS = [['equipment_return', 'Equipment return'], ['security_key', 'Security key'], ['account_disable', 'Account disable'], ['mdm_removal', 'MDM removal'],
+  ['license_reclaim', 'License reclaim'], ['tracker_update', 'Asset tracker'], ['laptop_wipe', 'Laptop wipe']];
+const stepDone = v => v === 'Done' || v === 'Damaged' || v === 'Legal hold';
+let offLimit = 25, offStatus = '';
+document.querySelectorAll('#off-seg button').forEach(b => b.onclick = () => {
+  offStatus = b.dataset.s; offLimit = 25;
+  document.querySelectorAll('#off-seg button').forEach(x => x.setAttribute('aria-pressed', x === b));
+  renderOff();
+});
 function offFiltered() {
-  const st = $('off-status').value, an = $('off-analyst').value, mode = $('off-mode').value, s = $('off-search').value.toLowerCase();
-  return D.offboarding.filter(r => (!st || r.status === st) && (!an || r.analyst === an) && (!mode || r.work_mode === mode)
+  const an = $('off-analyst').value, mode = $('off-mode').value, s = $('off-search').value.toLowerCase();
+  return D.offboarding.filter(r => (!offStatus || (offStatus === 'open' ? r.status !== 'Complete' : r.status === offStatus))
+    && (!an || r.analyst === an) && (!mode || r.work_mode === mode)
     && (!s || `${r.name} ${r.department} ${r.laptop_serial}`.toLowerCase().includes(s)));
 }
-const stepClass = v => ({Done: 'p-ok', Pending: 'p-pend', Damaged: 'p-bad', 'Legal hold': 'p-hold'}[v] || 'p-mute');
+const fmtDay = d => new Date(d + 'T12:00').toLocaleDateString('en-US', {month: 'short', day: 'numeric', year: 'numeric'});
 function renderOff() {
   const rows = offFiltered();
+  const open = rows.filter(r => r.status !== 'Complete');
   const out = rows.filter(r => r.equipment_return === 'Pending');
+  const outValue = out.reduce((s, r) => s + Number(r.laptop_value_usd), 0);
   kpis('off-kpis', [
-    {label: 'Departures', value: fmt(rows.length)},
-    {label: 'Complete', value: pct(rows.filter(r => r.status === 'Complete').length, rows.length) + '%', tone: 'ok'},
-    {label: 'In progress', value: fmt(rows.filter(r => r.status !== 'Complete').length), tone: 'warn'},
-    {label: 'Laptops outstanding', value: fmt(out.length), note: '$' + fmt(out.reduce((s, r) => s + Number(r.laptop_value_usd), 0)), tone: 'alert'},
-    {label: 'Legal holds', value: fmt(rows.filter(r => yes(r.legal_hold)).length), note: 'wipe paused'},
+    {label: 'Cases', value: fmt(rows.length)},
+    {label: 'Closed', value: pct(rows.length - open.length, rows.length) + '%', note: `${fmt(rows.length - open.length)} cases`, tone: 'ok'},
+    {label: 'Open', value: fmt(open.length), note: 'at least one step outstanding', tone: 'warn'},
+    {label: 'Hardware outstanding', value: '$' + fmt(Math.round(outValue / 1000)) + 'K', note: `${out.length} laptops not returned`, tone: 'alert'},
+    {label: 'Legal holds', value: fmt(rows.filter(r => yes(r.legal_hold)).length), note: 'device wipe paused'},
   ]);
-  chart('off-steps', {type: 'bar', data: {labels: STEPS.map(s => s[1]), datasets: [
-    {label: 'Done', backgroundColor: C.ok, data: STEPS.map(([k]) => rows.filter(r => ['Done', 'Damaged', 'Legal hold'].includes(r[k])).length)},
-    {label: 'Pending', backgroundColor: C.amber, data: STEPS.map(([k]) => rows.filter(r => r[k] === 'Pending').length)},
-  ]}, options: {indexAxis: 'y', scales: {x: {stacked: true, beginAtZero: true}, y: {stacked: true}}}});
+  const done = STEPS.map(([k, l]) => ({l, v: pct(rows.filter(r => stepDone(r[k])).length, rows.length)})).sort((a, b) => b.v - a.v);
+  chart('off-steps', {type: 'bar', data: {labels: done.map(d => d.l), datasets: [{label: 'Complete', data: done.map(d => d.v),
+    backgroundColor: done.map(d => d.v < 90 ? C.amber : C.accent), borderRadius: 4}]},
+    options: {indexAxis: 'y', plugins: {legend: {display: false}, tooltip: {callbacks: {label: c => c.raw + '% complete'}}},
+      scales: {x: {min: 0, max: 100, ticks: {callback: v => v + '%'}}, y: {grid: {display: false}}}}});
   const months = uniq(D.offboarding.map(r => r.termination_date.slice(0, 7)));
-  chart('off-monthly', {type: 'bar', data: {labels: months.map(m => new Date(m + '-15').toLocaleDateString('en-US', {month: 'short'})),
-    datasets: [{label: 'Departures', backgroundColor: C.accent, data: months.map(m => rows.filter(r => r.termination_date.startsWith(m)).length)}]},
-    options: {plugins: {legend: {display: false}}, scales: {y: {beginAtZero: true}}}});
-  $('off-count').textContent = `${fmt(rows.length)} departures match the filters · open items first`;
+  chart('off-monthly', {type: 'bar', data: {labels: months.map(m => new Date(m + '-15').toLocaleDateString('en-US', {month: 'short'})), datasets: [
+    {label: 'Closed', backgroundColor: C.accent, data: months.map(m => rows.filter(r => r.termination_date.startsWith(m) && r.status === 'Complete').length)},
+    {label: 'Open', backgroundColor: C.amber, data: months.map(m => rows.filter(r => r.termination_date.startsWith(m) && r.status !== 'Complete').length)},
+  ]}, options: {scales: {x: {stacked: true, grid: {display: false}}, y: {stacked: true, beginAtZero: true}}}});
+  $('off-count').textContent = `${fmt(rows.length)} cases · open cases first, most recent first`;
   const sorted = rows.slice().sort((a, b) => (a.status === 'Complete') - (b.status === 'Complete') || b.termination_date.localeCompare(a.termination_date));
-  $('off-cards').innerHTML = sorted.slice(0, offLimit).map(r => `<div class="ob">
-    <div class="who"><div><div class="name">${esc(r.name)}</div><div class="meta">${esc(r.department)} · ${esc(r.work_location)}</div></div>
-    <span class="pill ${r.status === 'Complete' ? 'p-ok' : 'p-pend'}">${r.status}</span></div>
-    <div class="meta" style="margin-top:6px">${esc(r.laptop_model)} · <span style="font-family:var(--mono)">${esc(r.laptop_serial)}</span> · ${esc(r.analyst)} · ${r.termination_date}</div>
-    <div class="steps">${STEPS.map(([k, l]) => `<div class="step pill ${stepClass(r[k])}" title="${l}: ${r[k]}">${l}<br>${r[k]}</div>`).join('')}</div></div>`).join('');
+  $('off-rows').innerHTML = sorted.slice(0, offLimit).map(r => {
+    const n = STEPS.filter(([k]) => stepDone(r[k])).length;
+    const pending = STEPS.filter(([k]) => r[k] === 'Pending').map(([, l]) => l);
+    const flags = [yes(r.legal_hold) ? '<span class="pill p-hold">Legal hold</span>' : '', r.equipment_return === 'Damaged' ? '<span class="pill p-bad">Returned damaged</span>' : ''].join(' ');
+    return `<tr>
+      <td><div class="strong">${esc(r.name)}</div><div class="sub">${esc(r.department)} · ${r.work_mode}</div></td>
+      <td>${fmtDay(r.termination_date)}</td>
+      <td>${esc(r.analyst)}</td>
+      <td>${esc(r.laptop_model)}<div class="sub mono">${esc(r.laptop_serial)}</div></td>
+      <td><div class="progress" role="img" aria-label="${n} of 7 steps complete"><span style="width:${n / 7 * 100}%"></span></div><div class="sub">${n} of 7</div></td>
+      <td class="wrap-cell">${pending.length ? `<span class="sub">${pending.join(', ')}</span>` : '<span class="sub">None</span>'} ${flags}</td>
+      <td><span class="pill ${r.status === 'Complete' ? 'p-ok' : 'p-pend'}">${r.status === 'Complete' ? 'Closed' : 'Open'}</span></td></tr>`;
+  }).join('');
   $('off-more').hidden = rows.length <= offLimit;
 }
-$('off-more').onclick = () => { offLimit += 48; renderOff(); };
-['off-status', 'off-analyst', 'off-mode', 'off-search'].forEach(id => $(id).addEventListener('input', () => { offLimit = 24; renderOff(); }));
+$('off-more').onclick = () => { offLimit += 50; renderOff(); };
+['off-analyst', 'off-mode', 'off-search'].forEach(id => $(id).addEventListener('input', () => { offLimit = 25; renderOff(); }));
 
 /* ---------------- contractors ---------------- */
 let ctLimit = 25;
@@ -417,7 +445,7 @@ function field(name, label, type = 'text', opts) {
   return `<label>${label}${input}</label>`;
 }
 function openForm(title, fields, onSave) {
-  $('dlg-form').innerHTML = `<h2>${title}</h2>${fields.join('')}<div class="actions"><button class="btn ghost" value="cancel" formnovalidate>Cancel</button><button class="btn" value="save">Save</button></div>`;
+  $('dlg-form').innerHTML = `<h2>${title}</h2><p class="form-note">Demo form: entries are not saved.</p>${fields.join('')}<div class="actions"><button class="btn ghost" value="cancel" formnovalidate>Cancel</button><button class="btn" value="save">Save</button></div>`;
   $('dlg').returnValue = '';
   $('dlg').showModal();
   $('dlg').onclose = () => {
@@ -435,16 +463,16 @@ $('on-add').onclick = () => openForm('Add new hire', [
   D.onboarding.unshift({hire_id: 'NH-NEW', ...v, cohort: `Cohort ${String(d.getMonth() + 1).padStart(2, '0')}/${String(d.getDate()).padStart(2, '0')}`,
     quarter: `Q${Math.floor(d.getMonth() / 3) + 1} ${d.getFullYear()}`, work_location: v.work_mode === 'HQ' ? 'Arlington, VA (HQ)' : 'Remote',
     orientation: v.work_mode === 'HQ' ? 'In person' : 'Virtual', nh_task_assigned: false, asset_tracker_updated: false, security_key_shipped: false, hardware_lead_days: ''});
-  toast(`Added ${v.name} (this tab only)`); renderOn();
+  toast(`Added ${v.name}`); renderOn();
 });
 $('off-add').onclick = () => openForm('New offboarding', [
-  field('name', 'Employee name'), field('termination_date', 'Termination date', 'date'),
+  field('name', 'Employee name'), field('termination_date', 'Last working day', 'date'),
   field('department', 'Department', null, depts()), field('analyst', 'Analyst', null, uniq(D.offboarding.map(r => r.analyst))),
   field('work_mode', 'Work mode', null, ['HQ', 'Remote']), field('laptop_model', 'Laptop', null, Object.keys(D.laptop_costs)),
 ], v => {
-  D.offboarding.unshift({offboard_id: 'OB-NEW', ...v, work_location: v.work_mode === 'HQ' ? 'Arlington, VA (HQ)' : 'Remote', laptop_serial: 'LV-NEW',
+  D.offboarding.unshift({offboard_id: 'OB-NEW', ...v, work_location: v.work_mode === 'HQ' ? 'Arlington, VA (HQ)' : 'Remote', laptop_serial: 'WZ-NEW',
     laptop_value_usd: D.laptop_costs[v.laptop_model], legal_hold: false, ...Object.fromEntries(STEPS.map(([k]) => [k, 'Pending'])), status: 'In progress'});
-  toast(`Started offboarding for ${v.name} (this tab only)`); renderOff();
+  toast(`Opened an offboarding case for ${v.name}`); renderOff();
 });
 $('ct-add').onclick = () => openForm('Add contractor', [
   field('name', 'Contractor name'), field('vendor', 'Vendor', null, uniq(D.contractors.map(r => r.vendor))),
@@ -453,7 +481,7 @@ $('ct-add').onclick = () => openForm('Add contractor', [
 ], v => {
   const region = D.contractors.find(r => r.country === v.country).region;
   D.contractors.push({contractor_id: 'CT-NEW', ...v, region, status: new Date(v.end_date) > new Date(AS_OF) ? 'Active' : 'Offboarded', contracts: 1});
-  toast(`Added ${v.name} (this tab only)`); renderCt();
+  toast(`Added ${v.name}`); renderCt();
 });
 
 /* ---------------- boot ---------------- */
