@@ -1,0 +1,285 @@
+hire_id,name,cohort_start,cohort,quarter,department,job_title,analyst,work_location,work_mode,orientation,laptop_model,nh_task_assigned,asset_tracker_updated,security_key_shipped,hardware_lead_days
+NH-1001,Chloe Adeyemi,2026-06-01,Cohort 06/01,Q2 2026,Consulting,Senior Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,4.7
+NH-1002,Gia Fischer,2026-06-01,Cohort 06/01,Q2 2026,Sales,Account Executive,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,3.1
+NH-1003,Ulrich Weber,2026-06-01,Cohort 06/01,Q2 2026,Finance,Accountant,Analyst B,"Arlington, VA (HQ)",HQ,In person,Other,True,True,True,4.5
+NH-1004,Noah Ahn,2026-06-01,Cohort 06/01,Q2 2026,Engineering,QA Analyst,Analyst B,"Columbus, OH",Remote,Virtual,ThinkBook 14 Pro,True,True,True,10.8
+NH-1005,Mateo Kim,2026-06-01,Cohort 06/01,Q2 2026,Client Success,Client Success Manager,Analyst B,"Phoenix, AZ",Remote,Virtual,MacBook Pro 14,False,True,False,9.0
+NH-1006,Ravi Zhou,2026-06-01,Cohort 06/01,Q2 2026,Engineering,QA Analyst,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1007,Grace Patel,2026-06-01,Cohort 06/01,Q2 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,1.3
+NH-1008,Liam Yilmaz,2026-06-01,Cohort 06/01,Q2 2026,Client Success,Client Success Manager,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,4.8
+NH-1009,Joel Okafor,2026-06-01,Cohort 06/01,Q2 2026,Finance,Accountant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,False,5.2
+NH-1010,Paloma Grant,2026-06-01,Cohort 06/01,Q2 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,7.7
+NH-1011,Carmen Dalton,2026-06-01,Cohort 06/01,Q2 2026,Legal,Counsel,Analyst D,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,2.9
+NH-1012,Priya Rossi,2026-06-01,Cohort 06/01,Q2 2026,Finance,Financial Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,5.2
+NH-1013,Mateo Sung,2026-06-01,Cohort 06/01,Q2 2026,Consulting,Senior Consultant,Analyst B,"Raleigh, NC",Remote,Virtual,MacBook Pro 14,True,True,True,9.7
+NH-1014,Uma Coelho,2026-06-01,Cohort 06/01,Q2 2026,Sales,Account Executive,Analyst B,"Nashville, TN",Remote,Virtual,ThinkBook 14 Pro,True,False,True,2.9
+NH-1015,Tessa Sato,2026-06-15,Cohort 06/15,Q2 2026,Consulting,Consultant,Analyst A,"Austin, TX",Remote,Virtual,ThinkBook 14 Pro,True,False,True,9.6
+NH-1016,Victor Dalton,2026-06-15,Cohort 06/15,Q2 2026,People & Talent,Recruiter,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.5
+NH-1017,Gabriel Mbeki,2026-06-15,Cohort 06/15,Q2 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,4.7
+NH-1018,Rafael Diaz,2026-06-15,Cohort 06/15,Q2 2026,Engineering,QA Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,3.6
+NH-1019,Darius Hale,2026-06-15,Cohort 06/15,Q2 2026,Consulting,Consultant,Analyst A,"Raleigh, NC",Remote,Virtual,ThinkBook 14 Pro,True,True,False,8.8
+NH-1020,Diego Abbott,2026-06-15,Cohort 06/15,Q2 2026,Sales,Account Executive,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,6.9
+NH-1021,Bruno Chen,2026-06-15,Cohort 06/15,Q2 2026,Finance,Accountant,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,3.1
+NH-1022,Hugo Castillo,2026-06-15,Cohort 06/15,Q2 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,5.2
+NH-1023,Liam Coelho,2026-06-15,Cohort 06/15,Q2 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.2
+NH-1024,Hana Castillo,2026-06-15,Cohort 06/15,Q2 2026,People & Talent,Recruiter,Analyst D,"Austin, TX",Remote,Virtual,ThinkBook 14 Pro,True,True,False,13.7
+NH-1025,Elliot Coelho,2026-06-15,Cohort 06/15,Q2 2026,Finance,Accountant,Analyst B,"Columbus, OH",Remote,Virtual,MacBook Pro 14,True,True,True,6.2
+NH-1026,Grace Kaplan,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,1.2
+NH-1027,Priya Haddad,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,8.3
+NH-1028,Priya Chen,2026-07-06,Cohort 07/06,Q3 2026,Engineering,Software Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.8
+NH-1029,Darius Shah,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,2.6
+NH-1030,Sofia Farrow,2026-07-06,Cohort 07/06,Q3 2026,Engineering,Software Engineer,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,5.2
+NH-1031,Paloma Xu,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,4.3
+NH-1032,Hana Farrow,2026-07-06,Cohort 07/06,Q3 2026,Finance,Financial Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,False,4.6
+NH-1033,Ulrich Moreau,2026-07-06,Cohort 07/06,Q3 2026,Legal,Counsel,Analyst C,"Boston, MA",Remote,Virtual,MacBook Air 13,True,True,True,8.1
+NH-1034,Avery Dube,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,5.4
+NH-1035,Marco Adeyemi,2026-07-06,Cohort 07/06,Q3 2026,Engineering,Software Engineer,Analyst A,"Boston, MA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,8.8
+NH-1036,Ravi Weber,2026-07-06,Cohort 07/06,Q3 2026,Legal,Paralegal,Analyst D,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,2.6
+NH-1037,Liam Hale,2026-07-06,Cohort 07/06,Q3 2026,Engineering,QA Analyst,Analyst C,"Atlanta, GA",Remote,Virtual,ThinkBook 14 Pro,False,True,True,8.2
+NH-1038,Elena Jensen,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Senior Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.6
+NH-1039,Avery Yilmaz,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,6.7
+NH-1040,Nadia Zamora,2026-07-06,Cohort 07/06,Q3 2026,Consulting,Senior Consultant,Analyst A,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,False,True,6.6
+NH-1041,Ivy Brennan,2026-07-06,Cohort 07/06,Q3 2026,People & Talent,HR Generalist,Analyst B,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,False,False,True,10.8
+NH-1042,Femi Okafor,2026-07-20,Cohort 07/20,Q3 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,1
+NH-1043,Tessa Vance,2026-07-20,Cohort 07/20,Q3 2026,Client Success,Client Success Manager,Analyst C,"Phoenix, AZ",Remote,Virtual,EliteBook 840,True,True,True,9.7
+NH-1044,Rosa Yilmaz,2026-07-20,Cohort 07/20,Q3 2026,Engineering,Software Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.8
+NH-1045,Liam Quinlan,2026-07-20,Cohort 07/20,Q3 2026,Engineering,Data Engineer,Analyst D,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,True,True,True,7.8
+NH-1046,Ravi Eze,2026-07-20,Cohort 07/20,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,3.5
+NH-1047,Darius Yilmaz,2026-07-20,Cohort 07/20,Q3 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,False,2.2
+NH-1048,Pedro Ahn,2026-07-20,Cohort 07/20,Q3 2026,Engineering,Software Engineer,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,7.1
+NH-1049,Chloe Dube,2026-07-20,Cohort 07/20,Q3 2026,Engineering,Data Engineer,Analyst C,"Chicago, IL",Remote,Virtual,MacBook Pro 14,True,True,True,10.4
+NH-1050,Nadia Ahn,2026-07-20,Cohort 07/20,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,3.8
+NH-1051,Olivia Reyes,2026-07-20,Cohort 07/20,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,2.8
+NH-1052,Grace Yilmaz,2026-07-20,Cohort 07/20,Q3 2026,Client Success,Client Success Manager,Analyst C,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,False,True,7.0
+NH-1053,Paloma Silva,2026-07-20,Cohort 07/20,Q3 2026,Engineering,QA Analyst,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,3.5
+NH-1054,Olivia Shah,2026-07-20,Cohort 07/20,Q3 2026,Engineering,Data Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,1
+NH-1055,Nadia Coelho,2026-08-03,Cohort 08/03,Q3 2026,Sales,Account Executive,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1056,Mateo Cole,2026-08-03,Cohort 08/03,Q3 2026,Consulting,Senior Consultant,Analyst C,"Columbus, OH",Remote,Virtual,ThinkBook 14 Pro,True,True,True,8.1
+NH-1057,Hana Weber,2026-08-03,Cohort 08/03,Q3 2026,Consulting,Senior Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.8
+NH-1058,Quinn Moreau,2026-08-03,Cohort 08/03,Q3 2026,Consulting,Associate Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,5.1
+NH-1059,Vera Zhou,2026-08-03,Cohort 08/03,Q3 2026,Engineering,QA Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,5.7
+NH-1060,Hana Castillo,2026-08-03,Cohort 08/03,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,4.3
+NH-1061,Femi Ellis,2026-08-03,Cohort 08/03,Q3 2026,Sales,Account Executive,Analyst A,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,10.1
+NH-1062,Vera Tanaka,2026-08-03,Cohort 08/03,Q3 2026,Security,Security Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,False,1.6
+NH-1063,Kenji Jensen,2026-08-03,Cohort 08/03,Q3 2026,Engineering,QA Analyst,Analyst C,"Nashville, TN",Remote,Virtual,MacBook Pro 14,True,True,True,8.9
+NH-1064,Sofia Sato,2026-08-03,Cohort 08/03,Q3 2026,People & Talent,HR Generalist,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.8
+NH-1065,Chloe Jensen,2026-08-03,Cohort 08/03,Q3 2026,People & Talent,HR Generalist,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,6.9
+NH-1066,Kenji Moreau,2026-08-03,Cohort 08/03,Q3 2026,Engineering,Data Engineer,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.4
+NH-1067,Hiro Quinlan,2026-08-03,Cohort 08/03,Q3 2026,Consulting,Associate Consultant,Analyst A,"Phoenix, AZ",Remote,Virtual,MacBook Air 13,True,False,True,8.2
+NH-1068,Dana Castillo,2026-08-03,Cohort 08/03,Q3 2026,Engineering,Data Engineer,Analyst A,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,True,True,8.5
+NH-1069,Rosa Tanaka,2026-08-03,Cohort 08/03,Q3 2026,Security,Security Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,3.5
+NH-1070,Olivia Lam,2026-08-03,Cohort 08/03,Q3 2026,Sales,Account Executive,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1071,Zion Torres,2026-08-03,Cohort 08/03,Q3 2026,Engineering,Software Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,10.0
+NH-1072,Dana Jensen,2026-08-03,Cohort 08/03,Q3 2026,Client Success,Client Success Associate,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.6
+NH-1073,Darius Kim,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Associate Consultant,Analyst B,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,False,True,9.9
+NH-1074,Elliot Eze,2026-08-17,Cohort 08/17,Q3 2026,People & Talent,Recruiter,Analyst A,"Seattle, WA",Remote,Virtual,MacBook Pro 14,True,False,False,9.8
+NH-1075,Yusuf Sato,2026-08-17,Cohort 08/17,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,9.7
+NH-1076,Hugo Becker,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,1.5
+NH-1077,Lena Fischer,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Associate Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.3
+NH-1078,Oscar Vance,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Consultant,Analyst B,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,True,True,True,11.5
+NH-1079,Felix Xu,2026-08-17,Cohort 08/17,Q3 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,True,8.6
+NH-1080,Lena Sung,2026-08-17,Cohort 08/17,Q3 2026,Engineering,Data Engineer,Analyst C,"Phoenix, AZ",Remote,Virtual,MacBook Pro 14,True,False,True,7.2
+NH-1081,Maya Reyes,2026-08-17,Cohort 08/17,Q3 2026,Sales,Account Executive,Analyst A,"Atlanta, GA",Remote,Virtual,MacBook Air 13,True,True,False,12.8
+NH-1082,Kofi Vance,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,7.4
+NH-1083,Gia Reyes,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,2.4
+NH-1084,Isaac Young,2026-08-17,Cohort 08/17,Q3 2026,Consulting,Consultant,Analyst A,"Atlanta, GA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,10.0
+NH-1085,Nadia Rossi,2026-08-17,Cohort 08/17,Q3 2026,Client Success,Client Success Associate,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,True,False,6.9
+NH-1086,Pedro Diaz,2026-08-17,Cohort 08/17,Q3 2026,Security,Security Analyst,Analyst B,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,5.4
+NH-1087,Tessa Zamora,2026-08-17,Cohort 08/17,Q3 2026,Engineering,Data Engineer,Analyst B,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,False,False,12.8
+NH-1088,Quinn Mbeki,2026-09-08,Cohort 09/08,Q3 2026,Client Success,Client Success Manager,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,3.3
+NH-1089,Paloma Hale,2026-09-08,Cohort 09/08,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.9
+NH-1090,Vera Young,2026-09-08,Cohort 09/08,Q3 2026,Client Success,Client Success Associate,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,2.5
+NH-1091,Uma Lindqvist,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Senior Consultant,Analyst A,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,False,True,6.9
+NH-1092,Ravi Zhou,2026-09-08,Cohort 09/08,Q3 2026,Client Success,Client Success Associate,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,2.1
+NH-1093,Nadia Xu,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Associate Consultant,Analyst A,"Boston, MA",Remote,Virtual,EliteBook 840,True,True,True,8.2
+NH-1094,Marco Brennan,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Senior Consultant,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,3.2
+NH-1095,Kofi Jensen,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst D,"Arlington, VA (HQ)",HQ,In person,Other,True,True,True,3.2
+NH-1096,Tessa Dube,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.3
+NH-1097,Jada Lam,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,False,4.9
+NH-1098,Selin Duarte,2026-09-08,Cohort 09/08,Q3 2026,Finance,Accountant,Analyst C,"Atlanta, GA",Remote,Virtual,ThinkBook 14 Pro,True,True,True,14.7
+NH-1099,Gia Diaz,2026-09-08,Cohort 09/08,Q3 2026,Sales,Sales Development Rep,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,7.7
+NH-1100,Samir Sung,2026-09-08,Cohort 09/08,Q3 2026,Engineering,Data Engineer,Analyst A,"Denver, CO",Remote,Virtual,MacBook Pro 14,True,True,True,7.3
+NH-1101,Hiro Rahman,2026-09-08,Cohort 09/08,Q3 2026,Client Success,Client Success Manager,Analyst A,"Nashville, TN",Remote,Virtual,ThinkBook 14 Pro,True,True,False,10.2
+NH-1102,Carmen Moreau,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,False,1.6
+NH-1103,Grace Abbott,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst A,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,8.8
+NH-1104,Ravi Santos,2026-09-08,Cohort 09/08,Q3 2026,Finance,Financial Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,6.1
+NH-1105,Zion Alvarez,2026-09-08,Cohort 09/08,Q3 2026,Security,Security Analyst,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.0
+NH-1106,Gia Ellis,2026-09-08,Cohort 09/08,Q3 2026,Finance,Financial Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,5.5
+NH-1107,Lucia Mbeki,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,False,1
+NH-1108,Joel Ortiz,2026-09-08,Cohort 09/08,Q3 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,4.9
+NH-1109,Blake Joshi,2026-09-08,Cohort 09/08,Q3 2026,People & Talent,Recruiter,Analyst A,"Atlanta, GA",Remote,Virtual,MacBook Pro 14,True,True,True,4.9
+NH-1110,Chloe Moreau,2026-09-08,Cohort 09/08,Q3 2026,Engineering,QA Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,9.1
+NH-1111,Yusuf Ellis,2026-09-08,Cohort 09/08,Q3 2026,Engineering,Software Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,True,1.6
+NH-1112,Gabriel Patel,2026-09-08,Cohort 09/08,Q3 2026,Engineering,Data Engineer,Analyst D,"Chicago, IL",Remote,Virtual,MacBook Air 13,True,False,False,7.5
+NH-1113,Amara Haddad,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Associate Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.8
+NH-1114,Gabriel Coelho,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Associate Consultant,Analyst D,"Atlanta, GA",Remote,Virtual,MacBook Air 13,True,True,True,7.7
+NH-1115,Marco Grant,2026-09-08,Cohort 09/08,Q3 2026,Engineering,Data Engineer,Analyst A,"Boston, MA",Remote,Virtual,EliteBook 840,True,True,True,13.7
+NH-1116,Nia Coelho,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Senior Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.8
+NH-1117,Bilal Park,2026-09-08,Cohort 09/08,Q3 2026,Client Success,Client Success Associate,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,2.5
+NH-1118,Kofi Dalton,2026-09-08,Cohort 09/08,Q3 2026,Legal,Counsel,Analyst B,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,True,False,False,7.3
+NH-1119,Ivy Silva,2026-09-08,Cohort 09/08,Q3 2026,Consulting,Associate Consultant,Analyst A,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,False,True,True,10.9
+NH-1120,Zara Sung,2026-09-08,Cohort 09/08,Q3 2026,People & Talent,HR Generalist,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,11.1
+NH-1121,Mateo Grant,2026-09-08,Cohort 09/08,Q3 2026,Engineering,Data Engineer,Analyst A,"Chicago, IL",Remote,Virtual,MacBook Air 13,True,False,True,12.0
+NH-1122,Kenji Moreau,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst A,"Chicago, IL",Remote,Virtual,MacBook Air 13,True,True,True,4.9
+NH-1123,Liam Sung,2026-09-21,Cohort 09/21,Q3 2026,Finance,Financial Analyst,Analyst A,"Austin, TX",Remote,Virtual,ThinkBook 14 Pro,True,True,False,14.1
+NH-1124,Femi Underwood,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.7
+NH-1125,Olivia Dube,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.5
+NH-1126,Jonah Moreau,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Senior Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,False,True,True,6.9
+NH-1127,Wesley Kim,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Senior Consultant,Analyst A,"Austin, TX",Remote,Virtual,MacBook Air 13,True,True,True,8.1
+NH-1128,Cameron Ahn,2026-09-21,Cohort 09/21,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,4.7
+NH-1129,Elliot Joshi,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1130,Darius Tanaka,2026-09-21,Cohort 09/21,Q3 2026,Client Success,Client Success Manager,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.3
+NH-1131,Gabriel Young,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Consultant,Analyst A,"Austin, TX",Remote,Virtual,MacBook Pro 14,True,True,True,2.9
+NH-1132,Femi Novak,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,3.6
+NH-1133,Lena Walsh,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,1.2
+NH-1134,Victor Eze,2026-09-21,Cohort 09/21,Q3 2026,Client Success,Client Success Associate,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,5.1
+NH-1135,Priya Cole,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Senior Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,2.7
+NH-1136,Samir Ibarra,2026-09-21,Cohort 09/21,Q3 2026,Client Success,Client Success Manager,Analyst B,"Boston, MA",Remote,Virtual,EliteBook 840,True,True,False,8.9
+NH-1137,Olivia Rahman,2026-09-21,Cohort 09/21,Q3 2026,Finance,Accountant,Analyst B,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,9.7
+NH-1138,Uma Kaplan,2026-09-21,Cohort 09/21,Q3 2026,People & Talent,HR Generalist,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,False,True,1.1
+NH-1139,Wren Abbott,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Senior Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,8.9
+NH-1140,Rafael Kim,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst C,"Boston, MA",Remote,Virtual,ThinkBook 14 Pro,True,False,False,8.8
+NH-1141,Priya Park,2026-09-21,Cohort 09/21,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,4.8
+NH-1142,Sofia Iyer,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst A,"Phoenix, AZ",Remote,Virtual,MacBook Pro 14,True,True,False,9.2
+NH-1143,Adaeze Sung,2026-09-21,Cohort 09/21,Q3 2026,Security,Security Analyst,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,5.9
+NH-1144,Tessa Kim,2026-09-21,Cohort 09/21,Q3 2026,Engineering,Software Engineer,Analyst A,"Seattle, WA",Remote,Virtual,ThinkBook 14 Pro,True,True,True,3.8
+NH-1145,Quinn Novak,2026-09-21,Cohort 09/21,Q3 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,3.0
+NH-1146,Gabriel Torres,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,Other,True,True,False,5.7
+NH-1147,Priya Diaz,2026-09-21,Cohort 09/21,Q3 2026,Client Success,Client Success Manager,Analyst C,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,11.0
+NH-1148,Cameron Varga,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.0
+NH-1149,Ulrich Yilmaz,2026-09-21,Cohort 09/21,Q3 2026,People & Talent,Recruiter,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,True,True,3.1
+NH-1150,Omar Weber,2026-09-21,Cohort 09/21,Q3 2026,People & Talent,Recruiter,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,5.2
+NH-1151,Quinn Torres,2026-09-21,Cohort 09/21,Q3 2026,Consulting,Associate Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,5.6
+NH-1152,Yara Eze,2026-09-21,Cohort 09/21,Q3 2026,Finance,Accountant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,4.7
+NH-1153,Zion Ortiz,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,5.7
+NH-1154,Uma Rossi,2026-10-05,Cohort 10/05,Q4 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.9
+NH-1155,Adaeze Torres,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Associate Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,6.9
+NH-1156,Samir Lindqvist,2026-10-05,Cohort 10/05,Q4 2026,Legal,Counsel,Analyst B,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,False,False,10.8
+NH-1157,Bilal Hale,2026-10-05,Cohort 10/05,Q4 2026,Engineering,Data Engineer,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.7
+NH-1158,Darius Park,2026-10-05,Cohort 10/05,Q4 2026,People & Talent,Recruiter,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,4.1
+NH-1159,Ulrich Bello,2026-10-05,Cohort 10/05,Q4 2026,Engineering,Data Engineer,Analyst A,"Atlanta, GA",Remote,Virtual,MacBook Pro 14,True,True,True,3.0
+NH-1160,Ximena Alvarez,2026-10-05,Cohort 10/05,Q4 2026,Legal,Counsel,Analyst B,"Phoenix, AZ",Remote,Virtual,MacBook Pro 14,True,False,True,8.9
+NH-1161,Nia Lam,2026-10-05,Cohort 10/05,Q4 2026,Client Success,Client Success Associate,Analyst A,"Austin, TX",Remote,Virtual,ThinkBook 14 Pro,True,True,False,5.9
+NH-1162,Elena Rossi,2026-10-05,Cohort 10/05,Q4 2026,Finance,Financial Analyst,Analyst A,"Nashville, TN",Remote,Virtual,MacBook Pro 14,True,False,True,7.6
+NH-1163,Bruno Becker,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Consultant,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,6.8
+NH-1164,Kofi Adeyemi,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,8.0
+NH-1165,Adaeze Mbeki,2026-10-05,Cohort 10/05,Q4 2026,Finance,Financial Analyst,Analyst D,"Columbus, OH",Remote,Virtual,EliteBook 840,True,False,True,11.1
+NH-1166,Femi Tanaka,2026-10-05,Cohort 10/05,Q4 2026,Sales,Sales Development Rep,Analyst A,"Boston, MA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,8.9
+NH-1167,Ines Underwood,2026-10-05,Cohort 10/05,Q4 2026,Finance,Accountant,Analyst A,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,False,True,9.2
+NH-1168,Ximena Banks,2026-10-05,Cohort 10/05,Q4 2026,Sales,Sales Development Rep,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,2.5
+NH-1169,Tariq Lindqvist,2026-10-05,Cohort 10/05,Q4 2026,Engineering,Software Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,2.3
+NH-1170,Keira Lam,2026-10-05,Cohort 10/05,Q4 2026,Finance,Financial Analyst,Analyst A,"Nashville, TN",Remote,Virtual,ThinkBook 14 Pro,True,False,True,10.2
+NH-1171,Pedro Chen,2026-10-05,Cohort 10/05,Q4 2026,Sales,Sales Development Rep,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,False,True,False,1.3
+NH-1172,Hugo Vance,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Senior Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1.1
+NH-1173,Darius Becker,2026-10-05,Cohort 10/05,Q4 2026,Sales,Account Executive,Analyst A,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,False,False,6.6
+NH-1174,Noah Kaplan,2026-10-05,Cohort 10/05,Q4 2026,Sales,Account Executive,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,False,True,1
+NH-1175,Victor Jensen,2026-10-05,Cohort 10/05,Q4 2026,Engineering,Data Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,True,4.0
+NH-1176,Oscar Rossi,2026-10-05,Cohort 10/05,Q4 2026,Finance,Financial Analyst,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.2
+NH-1177,Gia Quinlan,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Consultant,Analyst B,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,False,True,9.5
+NH-1178,Blake Iyer,2026-10-05,Cohort 10/05,Q4 2026,Client Success,Client Success Manager,Analyst C,"Nashville, TN",Remote,Virtual,MacBook Pro 14,True,True,True,11.4
+NH-1179,Ines Ibarra,2026-10-05,Cohort 10/05,Q4 2026,Client Success,Client Success Manager,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,5.4
+NH-1180,Bruno Joshi,2026-10-05,Cohort 10/05,Q4 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,5.7
+NH-1181,Amara Fischer,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Associate,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.0
+NH-1182,Gia Kaplan,2026-10-19,Cohort 10/19,Q4 2026,Sales,Account Executive,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,1
+NH-1183,Jada Ortiz,2026-10-19,Cohort 10/19,Q4 2026,Engineering,Data Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,False,5.1
+NH-1184,Olivia Lindqvist,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,1
+NH-1185,Hana Torres,2026-10-19,Cohort 10/19,Q4 2026,Finance,Accountant,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,5.2
+NH-1186,Zion Kim,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,3.9
+NH-1187,Rosa Xu,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.1
+NH-1188,Isaac Yilmaz,2026-10-19,Cohort 10/19,Q4 2026,Sales,Sales Development Rep,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.2
+NH-1189,Tessa Ibarra,2026-10-19,Cohort 10/19,Q4 2026,Engineering,Data Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1.2
+NH-1190,Carmen Novak,2026-10-19,Cohort 10/19,Q4 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,4.2
+NH-1191,Mateo Mbeki,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Manager,Analyst C,"Boston, MA",Remote,Virtual,EliteBook 840,True,True,True,11.0
+NH-1192,Gia Diaz,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst B,"Nashville, TN",Remote,Virtual,ThinkBook 14 Pro,True,True,True,7.1
+NH-1193,Samir Sung,2026-10-19,Cohort 10/19,Q4 2026,Engineering,Data Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,1
+NH-1194,Bruno Underwood,2026-10-19,Cohort 10/19,Q4 2026,Finance,Financial Analyst,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,3.6
+NH-1195,Priya Ibarra,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Associate,Analyst C,"Seattle, WA",Remote,Virtual,MacBook Pro 14,True,True,True,10.2
+NH-1196,Jada Haddad,2026-10-19,Cohort 10/19,Q4 2026,Finance,Accountant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,8.8
+NH-1197,Mateo Nakamura,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Associate,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,8.2
+NH-1198,Darius Gupta,2026-10-19,Cohort 10/19,Q4 2026,Sales,Account Executive,Analyst C,"Boston, MA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,5.8
+NH-1199,Paloma Adeyemi,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst A,"Boston, MA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,8.4
+NH-1200,Jada Walsh,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Manager,Analyst D,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.9
+NH-1201,Maya Santos,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst B,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,True,False,True,11.7
+NH-1202,Samir Park,2026-10-19,Cohort 10/19,Q4 2026,People & Talent,Recruiter,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,7.7
+NH-1203,Adaeze Jensen,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Manager,Analyst D,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,True,False,True,7.0
+NH-1204,Elliot Mbeki,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst C,"Atlanta, GA",Remote,Virtual,EliteBook 840,True,True,True,11.4
+NH-1205,Diego Banks,2026-10-19,Cohort 10/19,Q4 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,3.7
+NH-1206,Oscar Weber,2026-10-19,Cohort 10/19,Q4 2026,Engineering,Data Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,7.1
+NH-1207,Gia Joshi,2026-10-19,Cohort 10/19,Q4 2026,Sales,Sales Development Rep,Analyst B,"Chicago, IL",Remote,Virtual,EliteBook 840,True,False,False,10.1
+NH-1208,Kenji Reyes,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Senior Consultant,Analyst B,"Columbus, OH",Remote,Virtual,EliteBook 840,True,False,True,8.3
+NH-1209,Lena Moreau,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,8.8
+NH-1210,Felix Mbeki,2026-10-19,Cohort 10/19,Q4 2026,Sales,Sales Development Rep,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1211,Bruno Varga,2026-10-19,Cohort 10/19,Q4 2026,Engineering,QA Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,4.2
+NH-1212,Ximena Weber,2026-10-19,Cohort 10/19,Q4 2026,Engineering,Data Engineer,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1213,Uma Mbeki,2026-10-19,Cohort 10/19,Q4 2026,Client Success,Client Success Manager,Analyst A,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,True,True,True,11.4
+NH-1214,Blake Gupta,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst B,"Denver, CO",Remote,Virtual,ThinkBook 14 Pro,True,True,True,9.7
+NH-1215,Pedro Dalton,2026-10-19,Cohort 10/19,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,1
+NH-1216,Carmen Ahn,2026-10-19,Cohort 10/19,Q4 2026,Sales,Sales Development Rep,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,False,10.2
+NH-1217,Uma Rahman,2026-10-19,Cohort 10/19,Q4 2026,Sales,Account Executive,Analyst B,"Arlington, VA (HQ)",HQ,In person,Other,True,True,True,4.6
+NH-1218,Zion Banks,2026-10-19,Cohort 10/19,Q4 2026,Legal,Paralegal,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,5.7
+NH-1219,Femi Okafor,2026-10-19,Cohort 10/19,Q4 2026,People & Talent,Recruiter,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,5.7
+NH-1220,Olivia Tanaka,2026-11-02,Cohort 11/02,Q4 2026,People & Talent,HR Generalist,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,True,True,3.3
+NH-1221,Keira Novak,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,2.9
+NH-1222,Zion Silva,2026-11-02,Cohort 11/02,Q4 2026,Engineering,Software Engineer,Analyst D,"Austin, TX",Remote,Virtual,EliteBook 840,True,True,True,9.3
+NH-1223,Kofi Park,2026-11-02,Cohort 11/02,Q4 2026,People & Talent,Recruiter,Analyst B,"Austin, TX",Remote,Virtual,ThinkBook 14 Pro,True,False,True,9.8
+NH-1224,Darius Shah,2026-11-02,Cohort 11/02,Q4 2026,Engineering,QA Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,2.5
+NH-1225,Diego Lam,2026-11-02,Cohort 11/02,Q4 2026,Sales,Sales Development Rep,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,3.4
+NH-1226,Elena Ibarra,2026-11-02,Cohort 11/02,Q4 2026,Sales,Account Executive,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.2
+NH-1227,Zion Dube,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,3.1
+NH-1228,Yara Rahman,2026-11-02,Cohort 11/02,Q4 2026,Client Success,Client Success Manager,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,2.7
+NH-1229,Amara Weber,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,False,7.1
+NH-1230,Rafael Haddad,2026-11-02,Cohort 11/02,Q4 2026,Client Success,Client Success Manager,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,2.5
+NH-1231,Nia Weber,2026-11-02,Cohort 11/02,Q4 2026,Legal,Paralegal,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,True,True,3.8
+NH-1232,Nia Zhou,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Consultant,Analyst C,"Atlanta, GA",Remote,Virtual,ThinkBook 14 Pro,True,True,True,5.9
+NH-1233,Tessa Chen,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Senior Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,5.8
+NH-1234,Esme Nakamura,2026-11-02,Cohort 11/02,Q4 2026,People & Talent,HR Generalist,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.8
+NH-1235,Zion Sung,2026-11-02,Cohort 11/02,Q4 2026,Sales,Account Executive,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,5.3
+NH-1236,Nia Haddad,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,3.6
+NH-1237,Rafael Diaz,2026-11-02,Cohort 11/02,Q4 2026,Sales,Sales Development Rep,Analyst D,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,True,3.8
+NH-1238,Farah Gupta,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Associate Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,6.2
+NH-1239,Paloma Coelho,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,False,False,True,2.4
+NH-1240,Pedro Xu,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.4
+NH-1241,Ivy Brennan,2026-11-02,Cohort 11/02,Q4 2026,Client Success,Client Success Manager,Analyst C,"Seattle, WA",Remote,Virtual,ThinkBook 14 Pro,True,True,True,5.5
+NH-1242,Zara Cole,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,True,4.2
+NH-1243,Esme Novak,2026-11-02,Cohort 11/02,Q4 2026,Consulting,Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,2.7
+NH-1244,Ines Jensen,2026-11-16,Cohort 11/16,Q4 2026,Engineering,Software Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.0
+NH-1245,Cameron Alvarez,2026-11-16,Cohort 11/16,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,True,4.9
+NH-1246,Blake Sato,2026-11-16,Cohort 11/16,Q4 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,Other,True,True,False,6.6
+NH-1247,Gabriel Bello,2026-11-16,Cohort 11/16,Q4 2026,Sales,Sales Development Rep,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,5.4
+NH-1248,Lena Ellis,2026-11-16,Cohort 11/16,Q4 2026,Client Success,Client Success Associate,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,1.4
+NH-1249,Oscar Vance,2026-11-16,Cohort 11/16,Q4 2026,Finance,Financial Analyst,Analyst A,"Raleigh, NC",Remote,Virtual,ThinkBook 14 Pro,True,False,False,9.6
+NH-1250,Nadia Alvarez,2026-11-16,Cohort 11/16,Q4 2026,Consulting,Associate Consultant,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,False,1.8
+NH-1251,Olivia Dube,2026-11-16,Cohort 11/16,Q4 2026,Client Success,Client Success Manager,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,4.1
+NH-1252,Rosa Mbeki,2026-11-16,Cohort 11/16,Q4 2026,Legal,Counsel,Analyst C,"Denver, CO",Remote,Virtual,Other,True,True,True,13.4
+NH-1253,Kenji Varga,2026-11-16,Cohort 11/16,Q4 2026,Finance,Financial Analyst,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.8
+NH-1254,Carmen Moreau,2026-11-16,Cohort 11/16,Q4 2026,Consulting,Associate Consultant,Analyst A,"Denver, CO",Remote,Virtual,EliteBook 840,True,True,False,8.2
+NH-1255,Hugo Hale,2026-11-16,Cohort 11/16,Q4 2026,Engineering,Data Engineer,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,8.0
+NH-1256,Yusuf Gupta,2026-11-16,Cohort 11/16,Q4 2026,Consulting,Associate Consultant,Analyst A,"Nashville, TN",Remote,Virtual,MacBook Pro 14,True,False,False,5.8
+NH-1257,Nadia Rahman,2026-11-16,Cohort 11/16,Q4 2026,Client Success,Client Success Associate,Analyst B,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,True,True,4.8
+NH-1258,Liam Young,2026-11-16,Cohort 11/16,Q4 2026,Engineering,Software Engineer,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,False,True,3.6
+NH-1259,Isaac Quinlan,2026-11-16,Cohort 11/16,Q4 2026,Engineering,Software Engineer,Analyst C,"Nashville, TN",Remote,Virtual,MacBook Air 13,True,True,True,6.8
+NH-1260,Zara Haddad,2026-11-16,Cohort 11/16,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,7.5
+NH-1261,Yara Dalton,2026-11-16,Cohort 11/16,Q4 2026,Engineering,QA Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,4.3
+NH-1262,Farah Novak,2026-11-16,Cohort 11/16,Q4 2026,Engineering,Software Engineer,Analyst D,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,True,True,True,6.4
+NH-1263,Marco Abbott,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Associate,Analyst B,"Seattle, WA",Remote,Virtual,ThinkBook 14 Pro,True,False,True,
+NH-1264,Keira Quinlan,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Associate,Analyst B,"Atlanta, GA",Remote,Virtual,ThinkBook 14 Pro,False,True,True,
+NH-1265,Avery Sung,2026-11-30,Cohort 11/30,Q4 2026,Consulting,Senior Consultant,Analyst D,"Raleigh, NC",Remote,Virtual,ThinkBook 14 Pro,False,True,False,
+NH-1266,Adaeze Alvarez,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Data Engineer,Analyst B,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,False,True,True,
+NH-1267,Ulrich Adeyemi,2026-11-30,Cohort 11/30,Q4 2026,Consulting,Senior Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Air 13,False,False,False,
+NH-1268,Elena Hale,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Associate,Analyst B,"Raleigh, NC",Remote,Virtual,ThinkBook 14 Pro,True,False,False,
+NH-1269,Pedro Walsh,2026-11-30,Cohort 11/30,Q4 2026,Consulting,Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,Other,True,True,False,
+NH-1270,Wesley Gupta,2026-11-30,Cohort 11/30,Q4 2026,Engineering,QA Analyst,Analyst A,"Chicago, IL",Remote,Virtual,ThinkBook 14 Pro,False,False,False,
+NH-1271,Ines Gupta,2026-11-30,Cohort 11/30,Q4 2026,Consulting,Associate Consultant,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,True,
+NH-1272,Jada Alvarez,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Software Engineer,Analyst C,"Atlanta, GA",Remote,Virtual,Other,True,False,True,
+NH-1273,Samir Dube,2026-11-30,Cohort 11/30,Q4 2026,People & Talent,HR Generalist,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,False,True,False,
+NH-1274,Femi Xu,2026-11-30,Cohort 11/30,Q4 2026,Finance,Financial Analyst,Analyst A,"Phoenix, AZ",Remote,Virtual,MacBook Pro 14,False,False,False,
+NH-1275,Nadia Lindqvist,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Associate,Analyst A,"Phoenix, AZ",Remote,Virtual,ThinkBook 14 Pro,False,True,False,
+NH-1276,Gabriel Farrow,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Associate,Analyst C,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,False,False,
+NH-1277,Rafael Ellis,2026-11-30,Cohort 11/30,Q4 2026,Client Success,Client Success Manager,Analyst A,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,True,False,False,
+NH-1278,Samir Walsh,2026-11-30,Cohort 11/30,Q4 2026,Consulting,Consultant,Analyst C,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,True,False,
+NH-1279,Uma Eze,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Data Engineer,Analyst C,"Arlington, VA (HQ)",HQ,In person,EliteBook 840,False,False,True,
+NH-1280,Olivia Santos,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Data Engineer,Analyst B,"Denver, CO",Remote,Virtual,EliteBook 840,False,True,False,
+NH-1281,Samir Sato,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Software Engineer,Analyst B,"Raleigh, NC",Remote,Virtual,MacBook Air 13,True,True,False,
+NH-1282,Ximena Cole,2026-11-30,Cohort 11/30,Q4 2026,Security,Security Analyst,Analyst A,"Arlington, VA (HQ)",HQ,In person,MacBook Pro 14,True,True,False,
+NH-1283,Blake Tanaka,2026-11-30,Cohort 11/30,Q4 2026,Engineering,Software Engineer,Analyst D,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,False,False,True,
+NH-1284,Hugo Torres,2026-11-30,Cohort 11/30,Q4 2026,People & Talent,HR Generalist,Analyst A,"Arlington, VA (HQ)",HQ,In person,ThinkBook 14 Pro,True,False,False,
