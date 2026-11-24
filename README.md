@@ -74,7 +74,7 @@ python -m http.server -d docs 8000             # open http://localhost:8000
 - **One record per person per stage.** Each stage keeps its own fields (checklists, cohorts, vendors), but all three share department, location, work mode and owner, so the view can compare them side by side.
 - **Checklists, not just statuses.** "In progress" hides where the work is stuck. Tracking each step separately is what showed that physical recovery, not account removal, is the bottleneck.
 - **Workload framed as capacity.** Analyst views are there to balance assignments and staffing, not to rank individuals.
-- **Privacy by design.** The real versions of these tools hold employee names, device serials and vendor contracts. Public versions use synthetic data only.
+- **Privacy by design.** Tools like this usually hold employee names, device serials and vendor contracts, so this public version uses synthetic data only.
 
 ---
 
